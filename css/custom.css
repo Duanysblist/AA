@@ -4,6 +4,42 @@
     height: 250px;
 }
 
+#social-buttons-and-copyright {
+    background-color: #BADA55;
+    margin: 20px 207px;
+    height: 250px;
+}
+
+#btn-fb:hover{
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: #3079ed;
+}
+
+#btn-pin:hover{
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: #d6332b;
+}
+
+#btn-link:hover{
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: #2567bf;
+}
+
+#btn-insta:hover{
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: #d64c52;
+}
+
+ul li.nav-item:hover{
+    transition: 0.3s;
+    box-shadow: 0px 50px 100px -20px rgba(50, 50, 93, 0.25), 0px 30px 60px -30px rgba(0, 0, 0, 0.3), inset 0px -2px 6px 0px rgba(10, 37, 64, 0.35);
+    background-color: #accfe2;
+}
+
 #goal-script {
     font-family: 'Sacramento', cursive;
     font-size: 46px;
