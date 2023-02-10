@@ -2,47 +2,57 @@
     background-color: #BADA55;
     margin: 20px 207px;
     height: 250px;
+    opacity: 0.9;
 }
 
 #social-buttons-and-copyright {
     background-color: #BADA55;
     margin: 20px 207px;
     height: 250px;
+    opacity: 0.9;
 }
 
 #btn-fb:hover{
     transition: 0.3s;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     background-color: #3079ed;
+    border-radius: 50%;
 }
 
 #btn-pin:hover{
     transition: 0.3s;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     background-color: #d6332b;
+    border-radius: 50%;
 }
 
 #btn-link:hover{
     transition: 0.3s;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     background-color: #2567bf;
+    border-radius: 50%;
 }
 
 #btn-insta:hover{
     transition: 0.3s;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     background-color: #d64c52;
+    border-radius: 50%;
 }
 
 ul li.nav-item:hover{
     transition: 0.3s;
-    box-shadow: 0px 50px 100px -20px rgba(50, 50, 93, 0.25), 0px 30px 60px -30px rgba(0, 0, 0, 0.3), inset 0px -2px 6px 0px rgba(10, 37, 64, 0.35);
-    background-color: #accfe2;
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+}
+
+ul li.nav-item a:hover{
+    color: #accfe2;
 }
 
 #goal-script {
     font-family: 'Sacramento', cursive;
     font-size: 46px;
+    margin: 20px 10px;
 }
 
 #sub-goal-text {
@@ -64,6 +74,10 @@ ul li.nav-item:hover{
 
 #navbar-AA {
     font-family: 'Poppins', sans-serif;
+}
+
+.navbar-custom{
+    background-color: #ffff;
 }
 
 #page-links-home{
