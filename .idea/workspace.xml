@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a98ac07f-4d8e-468b-847d-85b9915def93" name="Changes" comment="Added correct footer design and social media animations. Working on navbar.">
-      <change afterPath="$PROJECT_DIR$/js/my.js" afterDir="false" />
+    <list default="true" id="a98ac07f-4d8e-468b-847d-85b9915def93" name="Changes" comment="Added jQuery animation to phase in title and home picture. Working on social media links.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/my.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,9 +90,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676062113226</updated>
-      <workItem from="1676062114385" duration="5633000" />
+      <workItem from="1676062114385" duration="8926000" />
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added jQuery animation to phase in title and home picture. Working on social media links.">
+      <created>1676067863840</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676067863840</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +121,7 @@
     <MESSAGE value="Inital setup of home page with navigation" />
     <MESSAGE value="Added animation to page links and structured home page" />
     <MESSAGE value="Added correct footer design and social media animations. Working on navbar." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added correct footer design and social media animations. Working on navbar." />
+    <MESSAGE value="Added jQuery animation to phase in title and home picture. Working on social media links." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added jQuery animation to phase in title and home picture. Working on social media links." />
   </component>
 </project>
