@@ -1,14 +1,14 @@
 $(document).ready(function () {
-    $('#AA-title').hide();
+    // $('#AA-title').hide();
     // $('#navbar-AA').hide();
-    $('#home-pic').hide();
+    // $('#home-pic').hide();
     // $('#original-hand-painted-text').hide();
     // $('#goal').hide();
     // $('#home-links').hide();
     // $('footer').hide();
-    $('#AA-title').fadeIn(3000);
+    // $('#AA-title').fadeIn(3000);
     // $('#navbar-AA').fadeIn(4000);
-    $('#home-pic').fadeIn(5000);
+    // $('#home-pic').fadeIn(5000);
     // $('#original-hand-painted-text').fadeIn(6000);
     // $('#goal').fadeIn(7000);
     // $('#home-links').fadeIn(5000);
@@ -17,3 +17,9 @@ $(document).ready(function () {
 
 
 });
+function openNav() {
+    document.getElementById("hamburger-side-nav").style.width = "250px";
+}
+function closeNav() {
+    document.getElementById("hamburger-side-nav").style.width = "0";
+}

@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a98ac07f-4d8e-468b-847d-85b9915def93" name="Changes" comment="Added jQuery animation to phase in title and home picture. Working on social media links.">
+    <list default="true" id="a98ac07f-4d8e-468b-847d-85b9915def93" name="Changes" comment="Finished animation on social media links">
+      <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/custom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inspiration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/my.js" afterDir="false" />
@@ -22,14 +28,28 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Sass File" />
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
         <option value="CSS File" />
         <option value="HTML File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="045d9a81-9837-4d63-8d23-f63b8e38fcc9" />
+        <option name="url" value="https://github.com/Duanysblist/AA.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -45,15 +65,22 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TODO_SCOPE": "All Places",
     "WebServerToolWindowFactoryState": "false",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="Initial Commit">
@@ -90,7 +117,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676062113226</updated>
-      <workItem from="1676062114385" duration="8926000" />
+      <workItem from="1676062114385" duration="12882000" />
+      <workItem from="1676304633514" duration="9683000" />
     </task>
     <task id="LOCAL-00005" summary="Added jQuery animation to phase in title and home picture. Working on social media links.">
       <created>1676067863840</created>
@@ -99,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676067863840</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finished animation on social media links">
+      <created>1676072347238</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676072347238</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +157,7 @@
     <MESSAGE value="Added animation to page links and structured home page" />
     <MESSAGE value="Added correct footer design and social media animations. Working on navbar." />
     <MESSAGE value="Added jQuery animation to phase in title and home picture. Working on social media links." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added jQuery animation to phase in title and home picture. Working on social media links." />
+    <MESSAGE value="Finished animation on social media links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished animation on social media links" />
   </component>
 </project>

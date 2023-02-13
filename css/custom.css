@@ -1,143 +1,168 @@
+@charset "UTF-8";
 #goal-text {
-    background-color: #BADA55;
-    margin: 20px 207px;
-    height: 250px;
-    opacity: 0.9;
+  background-color: #BADA55;
+  height: 250px;
+  opacity: 0.9;
 }
 
 #social-buttons-and-copyright {
-    background-color: #BADA55;
-    margin: 20px 207px;
-    height: 250px;
-    opacity: 0.9;
+  background-color: #BADA55;
+  height: 250px;
+  opacity: 0.9;
 }
 
-#btn-fb:hover{
-    transition: 0.3s;
-    transform: translateY(-10px);
-    /*box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;*/
-    /*background-color: #3079ed;*/
-    /*border-radius: 50%;*/
+#btn-fb:hover {
+  transition: 0.3s;
+  transform: translateY(-10px);
 }
 
-#btn-pin:hover{
-    transition: 0.3s;
-    transform: translateY(-10px);
-    /*box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;*/
-    /*background-color: #d6332b;*/
-    /*border-radius: 50%;*/
+#btn-pin:hover {
+  transition: 0.3s;
+  transform: translateY(-10px);
 }
 
-#btn-link:hover{
-    transition: 0.3s;
-    transform: translateY(-10px);
-    /*box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;*/
-    /*background-color: #2567bf;*/
-    /*border-radius: 50%;*/
+#btn-link:hover {
+  transition: 0.3s;
+  transform: translateY(-10px);
 }
 
-#btn-insta:hover{
-    transition: 0.3s;
-    transform: translateY(-10px);
-    /*box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;*/
-    /*background-color: #d64c52;*/
-    /*background-image: url("../images/palm-leaves.jpg");*/
-    /*border-radius: 50%;*/
+#btn-insta:hover {
+  transition: 0.3s;
+  transform: translateY(-10px);
 }
 
-ul li.nav-item:hover{
-    transition: 0.3s;
-    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+ul li.nav-item:hover {
+  transition: 0.3s;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
 }
-
-ul li.nav-item a:hover{
-    color: #accfe2;
+ul li.nav-item a:hover {
+  color: #accfe2;
 }
 
 #goal-script {
-    font-family: 'Sacramento', cursive;
-    font-size: 46px;
-    margin: 20px 10px;
+  font-family: "Sacramento", cursive;
+  font-size: 46px;
+  margin: 20px 10px;
 }
 
 #sub-goal-text {
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    margin: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin: 10px;
 }
 
 #original-hand-painted-text {
-    font-family: 'Poppins', sans-serif;
-    font-size: 25px;
-    word-wrap: normal;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  word-wrap: normal;
 }
 
 #AA-title {
-    font-family: 'Questrial', sans-serif;
-    font-size: 50px;
+  font-family: "Questrial", sans-serif;
+  font-size: 50px;
 }
 
 #navbar-AA {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.navbar-custom{
-    background-color: #ffff;
+.navbar-custom {
+  background-color: white;
 }
 
-#page-links-home{
-    min-height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+#page-links-home {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+#page-links-home a {
+  position: relative;
+  width: 250px;
+  height: 75px;
+  margin: 10px 10px;
+  font-size: 18px;
+  color: #000;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: 0.5s;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+#page-links-home a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: url("../images/—Pngtree—brush light blue brush stroke_7253030.png");
+  background-size: cover;
+  transform-orgin: left;
+  transition: 0.8s;
+}
+#page-links-home a:hover {
+  color: #000;
+}
+#page-links-home a:hover:before {
+  width: 100%;
+  color: #fff;
+}
+#page-links-home a span {
+  position: relative;
+  z-index: 1;
+  font-family: "Poppins", sans-serif;
 }
 
-#page-links-home a{
-    position: relative;
-    width: 250px;
-    height: 75px;
-    margin: 10px 10px;
-    font-size: 18px;
-    color: #000;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    transition: 0.5s;
-    text-transform: uppercase;
-    font-weight: 900;
-}
-
-
-#page-links-home a:before{
-    content: '';
-    position: absolute;
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
     top: 0;
     left: 0;
-    width: 0;
-    height: 100%;
-    background: url("../images/—Pngtree—brush light blue brush stroke_7253030.png");
-    background-size: cover;
-    transform-orgin: left;
-    transition: 0.8s;
+    background-color: #e2a191;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
 }
 
-#page-links-home a:hover:before{
-    width: 100%;
-    color: #fff;
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
 }
 
-
-#page-links-home a:hover{
-    color: #000;
+.sidenav a:hover {
+    color: #f1f1f1;
 }
 
-#page-links-home a span{
-    position: relative;
-    z-index: 1;
-    font-family: 'Poppins', sans-serif;
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
 }
 
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
 
+a:link, a:visited, a:hover, a:active {
+    color: #000000;
+    text-decoration: none;
+}
 
+header {
+    text-align: center;
+}
+
+/*# sourceMappingURL=custom.css.map */

@@ -1,0 +1,127 @@
+$color_1: #accfe2;
+$color_2: #000;
+$color_3: #fff;
+$font-family_1: 'Sacramento', cursive;
+$font-family_2: 'Poppins', sans-serif;
+$font-family_3: 'Questrial', sans-serif;
+$background-color_1: #BADA55;
+$background-color_2: #ffff;
+
+#goal-text {
+  background-color: $background-color_1;
+  height: 250px;
+  opacity: 0.9;
+}
+#social-buttons-and-copyright {
+  background-color: $background-color_1;
+  height: 250px;
+  opacity: 0.9;
+}
+#btn-fb {
+  &:hover {
+    transition: 0.3s;
+    transform: translateY(-10px);
+  }
+}
+#btn-pin {
+  &:hover {
+    transition: 0.3s;
+    transform: translateY(-10px);
+  }
+}
+#btn-link {
+  &:hover {
+    transition: 0.3s;
+    transform: translateY(-10px);
+  }
+}
+#btn-insta {
+  &:hover {
+    transition: 0.3s;
+    transform: translateY(-10px);
+  }
+}
+ul {
+  li.nav-item {
+    &:hover {
+      transition: 0.3s;
+      box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+    }
+    a {
+      &:hover {
+        color: $color_1;
+      }
+    }
+  }
+}
+#goal-script {
+  font-family: $font-family_1;
+  font-size: 46px;
+  margin: 20px 10px;
+}
+#sub-goal-text {
+  font-family: $font-family_2;
+  font-size: 20px;
+  margin: 10px;
+}
+#original-hand-painted-text {
+  font-family: $font-family_2;
+  font-size: 25px;
+  word-wrap: normal;
+}
+#AA-title {
+  font-family: $font-family_3;
+  font-size: 50px;
+}
+#navbar-AA {
+  font-family: $font-family_2;
+}
+.navbar-custom {
+  background-color: $background-color_2;
+}
+#page-links-home {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  a {
+    position: relative;
+    width: 250px;
+    height: 75px;
+    margin: 10px 10px;
+    font-size: 18px;
+    color: $color_2;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-weight: 900;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      background: url("../images/—Pngtree—brush light blue brush stroke_7253030.png");
+      background-size: cover;
+      transform-orgin: left;
+      transition: 0.8s;
+    }
+    &:hover {
+      &:before {
+        width: 100%;
+        color: $color_3;
+      }
+      color: $color_2;
+    }
+    span {
+      position: relative;
+      z-index: 1;
+      font-family: $font-family_2;
+    }
+  }
+}
