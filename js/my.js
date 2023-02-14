@@ -18,7 +18,12 @@ $(document).ready(function () {
 
 });
 function openNav() {
-    document.getElementById("hamburger-side-nav").style.width = "250px";
+    if(document.getElementById("hamburger-side-nav").style.width == "250px"){
+        closeNav();
+    } else {
+        document.getElementById("hamburger-side-nav").style.width = "250px";
+    }
+
 }
 function closeNav() {
     document.getElementById("hamburger-side-nav").style.width = "0";

@@ -14,23 +14,112 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <script src="js/my.js"></script>
 <body>
-<br>
-<br>
-<header>
-  <div id="AA-title">
-    <h1 class="text-center">  <a href="./index.html"><span style="font-family: 'Questrial', sans-serif">ALBERT</span> <span style="font-family: 'Sacramento', cursive">&</span> <span style="font-family: 'Questrial', sans-serif">ACKEE</span></a>  </h1>
+
+  <br>
+  <br>
+
+  <header>
+    <div id="AA-title">
+      <h1 class="text-center">  <a href="./index.html"><span style="font-family: 'Questrial', sans-serif">ALBERT</span> <span style="font-family: 'Sacramento', cursive">&</span> <span style="font-family: 'Questrial', sans-serif">ACKEE</span></a>  </h1>
+    </div>
+
+    <div id="hamburger-side-nav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="about.html">About</a>
+      <a href="inspiration.html">Inspiration</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="shop.html">Shop</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <span style="cursor: pointer; font-size: 50px" onclick="openNav()">&#9776;</span>
+  </header>
+
+  <br>
+  <br>
+
+  <div id="about-us-box" class="text-center container-fluid">
+    <br>
+    <h3 id="about-us-title">about us</h3>
+    <br>
+    <div id="about-us-text">
+      <p> Textile artist Diane Duany is the founder and owner of Albert and Ackee: </p>
+      <p> a studio located in New York City that specializes in original </p>
+      <p> painted-by-hand surface designs on paper using gouache and watercolor. </p>
+    </div>
+    <br>
+    <br>
   </div>
 
-  <div id="hamburger-side-nav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="about.html">About</a>
-    <a href="inspiration.html">Inspiration</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="shop.html">Shop</a>
-    <a href="contact.html">Contact</a>
+
+  <br>
+
+
+  <div class="row">
+    <div class="col text-center">
+      <img src="images/about_pic.webp" alt="Vision board with beach photos">
+    </div>
+    <div id="about-long-text" class="col text-center">
+      <p>These designs are colorful and unique and started from her memories <br>
+      of her Anglo-Caribbean heritage, childhood trips to the West Indies, and <br>
+      her 2012 blog "Paradise Past Jamaica". The blog focused on the jet set <br>
+      lifestyles of celebrities and royalty between 1948 and 1968 that descended <br>
+      upon the island of Jamaica for sun, food and play. Albert and Ackee <br>
+      takes inspiration from her love of African and Polynesian Bogolanfini tribal <br>
+      patterns, tropical flowers and Caribbean colors. All of these <br>
+      elements play a role in the creation of these textiles that convey the <br>
+      essence of paradise. <br>
+      <br>
+      Diane is an alumni of the Fashion Institute of Technology and worked as <br>
+      a professional textile designer for a while before switching career paths. <br>
+      She has painted her whole life and, after a hiatus, returned to her <br>
+      passion for producing creative patterns. Albert and Ackee designs <br>
+      are for home decor, apparel, fabric, stationery and more. Original <br>
+      designs can be viewed by appointment and are available for licensing.</p>
+    </div>
   </div>
 
-  <span style="cursor: pointer; font-size: 50px" onclick="openNav()">&#9776;</span>
-</header>
+  <br>
+
+  <footer>
+    <div class="text-center container-fluid">
+      <div id="social-buttons-and-copyright">
+
+        <br>
+        <br>
+
+        <div class="row">
+
+          <div class="col">
+
+          </div>
+
+          <div class="col">
+            <a id="btn-insta" class="btn" role="button"><i class="fa-brands fa-instagram fa-3x"></i></a>
+            <a id="btn-fb" class="btn" role="button"><i class="fa-brands fa-facebook fa-3x"></i></a>
+            <a id="btn-pin" class="btn" role="button"><i class="fa-brands fa-pinterest fa-3x"></i></a>
+            <a id="btn-link" class="btn" role="button"><i class="fa-brands fa-linkedin fa-3x"></i></a>
+          </div>
+
+          <div class="col">
+
+          </div>
+
+        </div>
+
+        <br>
+        <br>
+
+        <div class="row">
+          <div class="col"  id="copyright">
+            <p>Copyright © 2023 Albert and Ackee Inc. All Rights Reserved.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
 </body>
 </html>

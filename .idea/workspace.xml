@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a98ac07f-4d8e-468b-847d-85b9915def93" name="Changes" comment="Finished animation on social media links">
-      <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/custom.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inspiration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
+    <list default="true" id="a98ac07f-4d8e-468b-847d-85b9915def93" name="Changes" comment="Replaced navbar with hamburger navigation. Incorporated Instagram feed into home page.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inspiration.html" beforeDir="false" afterPath="$PROJECT_DIR$/inspiration.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/my.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +117,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676062113226</updated>
       <workItem from="1676062114385" duration="12882000" />
-      <workItem from="1676304633514" duration="9683000" />
+      <workItem from="1676304633514" duration="15042000" />
     </task>
     <task id="LOCAL-00005" summary="Added jQuery animation to phase in title and home picture. Working on social media links.">
       <created>1676067863840</created>
@@ -134,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676072347238</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Replaced navbar with hamburger navigation. Incorporated Instagram feed into home page.">
+      <created>1676314849738</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676314849738</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +164,7 @@
     <MESSAGE value="Added correct footer design and social media animations. Working on navbar." />
     <MESSAGE value="Added jQuery animation to phase in title and home picture. Working on social media links." />
     <MESSAGE value="Finished animation on social media links" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished animation on social media links" />
+    <MESSAGE value="Replaced navbar with hamburger navigation. Incorporated Instagram feed into home page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Replaced navbar with hamburger navigation. Incorporated Instagram feed into home page." />
   </component>
 </project>
