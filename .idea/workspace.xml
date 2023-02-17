@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a98ac07f-4d8e-468b-847d-85b9915def93" name="Changes" comment="Added basic layout for About page. Waiting for higher quality photos to enlarge.">
+    <list default="true" id="a98ac07f-4d8e-468b-847d-85b9915def93" name="Changes" comment="Added images for inspiration page and Paradise Past Jamaica pdf view on About page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inspiration.html" beforeDir="false" afterPath="$PROJECT_DIR$/inspiration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/my.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676062113226</updated>
       <workItem from="1676062114385" duration="12882000" />
-      <workItem from="1676304633514" duration="22262000" />
+      <workItem from="1676304633514" duration="25303000" />
     </task>
     <task id="LOCAL-00005" summary="Added jQuery animation to phase in title and home picture. Working on social media links.">
       <created>1676067863840</created>
@@ -143,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676334053371</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added images for inspiration page and Paradise Past Jamaica pdf view on About page">
+      <created>1676424489553</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676424489553</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +176,7 @@
     <MESSAGE value="Finished animation on social media links" />
     <MESSAGE value="Replaced navbar with hamburger navigation. Incorporated Instagram feed into home page." />
     <MESSAGE value="Added basic layout for About page. Waiting for higher quality photos to enlarge." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added basic layout for About page. Waiting for higher quality photos to enlarge." />
+    <MESSAGE value="Added images for inspiration page and Paradise Past Jamaica pdf view on About page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added images for inspiration page and Paradise Past Jamaica pdf view on About page" />
   </component>
 </project>
