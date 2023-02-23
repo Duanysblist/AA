@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a98ac07f-4d8e-468b-847d-85b9915def93" name="Changes" comment="Added more spacing and a larger main photo for inspiration.html">
+    <list default="true" id="a98ac07f-4d8e-468b-847d-85b9915def93" name="Changes" comment="Started work on the Gallery page to include a carousel">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/my.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +112,7 @@
       <updated>1676062113226</updated>
       <workItem from="1676062114385" duration="12882000" />
       <workItem from="1676304633514" duration="29443000" />
-      <workItem from="1676671562847" duration="10272000" />
+      <workItem from="1676671562847" duration="12558000" />
     </task>
     <task id="LOCAL-00005" summary="Added jQuery animation to phase in title and home picture. Working on social media links.">
       <created>1676067863840</created>
@@ -166,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676596587427</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Started work on the Gallery page to include a carousel">
+      <created>1677109796516</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677109796516</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +199,7 @@
     <MESSAGE value="Added images for inspiration page and Paradise Past Jamaica pdf view on About page" />
     <MESSAGE value="Allowed for images to enlarge on inspiration page when clicked" />
     <MESSAGE value="Added more spacing and a larger main photo for inspiration.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added more spacing and a larger main photo for inspiration.html" />
+    <MESSAGE value="Started work on the Gallery page to include a carousel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started work on the Gallery page to include a carousel" />
   </component>
 </project>
